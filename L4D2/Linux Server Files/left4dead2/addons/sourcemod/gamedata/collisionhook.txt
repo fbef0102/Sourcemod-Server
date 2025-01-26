@@ -1,0 +1,67 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			/* @Crasher_3637 Thanks!
+			 * How to find on windows:
+			 * https://forums.alliedmods.net/showpost.php?p=2737146&postcount=119
+			*/
+			"PassServerEntityFilter"
+			{
+				"library"		"server"
+
+				"linux"			"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
+				"mac"			"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
+			}
+		}
+	}
+	
+	"left4dead2"
+	{
+		"Signatures"
+		{
+			/* PassServerEntityFilter(IHandleEntity const*, IHandleEntity const*)
+			 *
+			 * How to find on Windows:
+			 * 1. Search for the "RagdollImpact" string.
+			 * 2. One of the functions that references that string should be "CBaseEntity::FireBullets".
+			 * 3. Click on the first function call below the string to go to "Pickup_ForcePlayerToDropThisObject".
+			 * 4. Check the references for "Pickup_ForcePlayerToDropThisObject".
+			 * 5. One of the functions that calls "Pickup_ForcePlayerToDropThisObject" should be "CTraceFilterMelee::ShouldHitEntity".
+			 * 6. The second function call in "CTraceFilterMelee::ShouldHitEntity" should be this function.
+			 **/
+			"PassServerEntityFilter"
+			{
+				"library"	"server"
+
+				"windows"	"\x55\x8b\xec\x57\x8b\x7d\x0c\x85\xff\x75\x2a\xb0\x01\x5f\x5d\xc3\x56\x8b\x75"
+			}
+		}
+	}
+	
+	"left4dead"
+	{
+		"Signatures"
+		{
+			/* PassServerEntityFilter(IHandleEntity const*, IHandleEntity const*)
+			 *
+			 * How to find on Windows:
+			 * 1. Search for the "RagdollImpact" string.
+			 * 2. One of the functions that references that string should be "CBaseEntity::FireBullets".
+			 * 3. Click on the first function call below the string to go to "Pickup_ForcePlayerToDropThisObject".
+			 * 4. Check the references for "Pickup_ForcePlayerToDropThisObject".
+			 * 5. One of the functions that calls "Pickup_ForcePlayerToDropThisObject" should be "CTraceFilterMelee::ShouldHitEntity".
+			 * 6. The second function call in "CTraceFilterMelee::ShouldHitEntity" should be this function.
+			 **/
+			"PassServerEntityFilter"
+			{
+				"library"	"server"
+
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x75\x2A\xB0\x2A\x5F\xC3\x56"
+							/* ? ? ? ? ? ? ? 75 ? B0 ? 5F C3 56 */
+			}
+		}
+	}
+}
