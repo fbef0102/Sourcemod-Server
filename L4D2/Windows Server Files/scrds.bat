@@ -1,0 +1,1 @@
+start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 -maxplayers 31

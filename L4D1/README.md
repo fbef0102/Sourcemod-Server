@@ -44,28 +44,43 @@
 		* **2024-12-06** by MAXMIND
 
 # Server Install
-* **Step 1:** A [clean L4D1 Dedicated Server](#how-to-download-l4d1-dedicated-server-files).
+* **Step 1:** [Clean L4D1 Dedicated Server](#how-to-download-l4d1-dedicated-server-files).
 
-* **Step 2:** Choose [Windows Server files](https://github.com/fbef0102/L4D1-Server4Dead/releases/download/v4.0/Windows_Server_files.zip) or [Linux Server files](https://github.com/fbef0102/L4D1-Server4Dead/releases/download/v4.0/Linux_Server_files.zip)(depending on the operating system of your server), and place the files provided in the correct folder.
+* **Step 2:** 
+	* (Windows) Choose "Windows Server files", and place the files provided in the correct folder.
+	* (Linux) Choose "Linux Server files", and place the files provided in the correct folder.
 
-* **Step 3:** Adjust your **server_rates.cfg** to match your rates accordingly.  
-	* For 100 Tickrate, you'd want these settings:
-		1. ```cfg/server_rates.cfg```
-			```php
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
-			```
+* **Step 3:** Adjust cvar to match your server  
+	1. ```cfg/server.cfg```
+		```php
+		// Set your server region to steam master
+		// https://developer.valvesoftware.com/wiki/Sv_region
+		// 4=Asia
+		sv_region 4 
+		```
 
-* **Step 4:** Change the Launch Parameters.
-	```
-	-console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
-	```
+	2. ```cfg/server_rates.cfg```
+		```php
+		// For 100 Tickrate, you'd want these settings:
+		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
+		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
+		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
+		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
+		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+		sm_cvar fps_max					"0"
+		```
+
+* **Step 4:** Change the Launch Parameters and start server
+	* (Windows) Double click scrds.bat
+		```
+		start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
+		```
+	* (Linux) Use screen, a terminal multiplexer
+		```
+		./srcds_run -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
+		```
 
 # How to download L4D1 Dedicated Server files:
 **Warning: Don't try to download "Left 4 Dead Dedicated Server" from steam library, it's broken!! Use steamcmd instead.**
@@ -78,7 +93,7 @@
 	* ```force_install_dir ./l4d1/```
 	* ```login xxxx```
 		* xxxx is your steam account number 
-		* Enter your steam account password
+		* Enter your steam account password if needed
 	* ```app_update 222840 validate```
 
 * **Step 4:** Finish downloading and close steamcmd.

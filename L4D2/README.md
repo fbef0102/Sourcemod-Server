@@ -50,36 +50,50 @@
 		* **2024-12-06** by MAXMIND.com
 
 # Server Install
-* **Step 1:** A [clean L4D2 Dedicated Server](#how-to-download-l4d2-dedicated-server-files).
+* **Step 1:** [Clean L4D2 Dedicated Server](#how-to-download-l4d2-dedicated-server-files).
 
-* **Step 2:** Choose "Windows Server files" or "Linux Server files" (depending on the operating system of your server), and place the files provided in the correct folder.
+* **Step 2:** 
+	* (Windows) Choose "Windows Server files", and place the files provided in the correct folder.
+	* (Linux) Choose "Linux Server files", and place the files provided in the correct folder.
 
-* **Step 3:** Adjust your **server_rates.cfg** and **l4d2_resolve_collision.cfg** to match your server tickrate accordingly.  
-	* For 100 Tickrate, you'd want these settings:
-		1. ```cfg/server_rates.cfg```
-			```php
-			sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-			sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-			sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-			sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-			sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-			sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-			sm_cvar fps_max					"0"
-			```
+* **Step 3:** Adjust cvar to match your server  
+	1. ```cfg/server.cfg```
+		```php
+		// Set your server region to steam master
+		// https://developer.valvesoftware.com/wiki/Sv_region
+		// 4=Asia
+		sv_region 4 
+		```
 
-		2. ```cfg/l4d2_resolve_collision.cfg```
-			```php
-			// Multiplier of commons collision force
-			// 30tick = 0.65, 60tick = 0.15, 100tick = 0.05
-			z_resolve_zombie_collision_multiplier "0.05"
-			```
-  
+	2. ```cfg/server_rates.cfg```
+		```php
+		// For 100 Tickrate, you'd want these settings:
+		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
+		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
+		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
+		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
+		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
+		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
+		sm_cvar fps_max					"0"
+		```
 
-* **Step 4:** Change the Launch Parameters.
-	```
-	-console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 -maxplayers 31
-	```
+	3. ```cfg/l4d2_resolve_collision.cfg```
+		```php
+		// Multiplier of commons collision force
+		// 30tick = 0.65, 60tick = 0.15, 100tick = 0.05
+		z_resolve_zombie_collision_multiplier "0.05"
+		```
+
+* **Step 4:** Change the Launch Parameters and start server
+	* (Windows) Double click scrds.bat
+		```
+		start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 -maxplayers 31
+		```
+	* (Linux) Use screen, a terminal multiplexer
+		```
+		./srcds_run -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 -maxplayers 31
+		```
 
 # How to download L4D2 Dedicated Server files:
 * **Step 1:** [Download steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD).
@@ -90,7 +104,7 @@
 	* ```force_install_dir ./l4d2/```
 	* ```login xxxx```
 		* xxxx is your steam account number 
-		* Enter your steam account password
+		* Enter your steam account password if needed
 	* ```app_update 222860 validate```
 
 * **Step 4:** Finish downloading and close steamcmd.
