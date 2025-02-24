@@ -9,6 +9,26 @@ Setup your own sourcemod servers.
 * [L4D1](/L4D1): Setup l4d1 sourcemod dedicated servers.
 * [L4D2](/L4D2): Setup l4d2 sourcemod dedicated servers.
 
+### Dependencies ###
+* **(Linux Only)**: [Source](https://linuxgsm.com/servers/l4dserver/)
+	* Ubuntu =< 20.04 : **Unsupported**
+	* Ubuntu => 20.10
+		```
+		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 lib32z1 gcc-multilib steamcmd
+		```
+	* Debian =< 10
+		```
+		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
+		```
+	* Debian => 11
+		```
+		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 zlib1g:i386; sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
+		```
+	* CentOS
+		```
+		yum install epel-release curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686 zlib.i686
+		```
+
 ### How to be Adm ###
 1. open addons\sourcemod\configs\admins_simple.ini
 2. add this line at the buttom of text, [Steamid Finder](https://steamid.xyz/)

@@ -99,32 +99,8 @@
 * **Step 4:** Finish downloading and close steamcmd.
 	* ```exit```
 
-* **Step 5 (Linux Only):** Dependencies ([Source](https://linuxgsm.com/servers/l4dserver/))
-	* Ubuntu =< 20.04
-		```
-		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
-		sudo apt install lib32z1
-		```
-	* Ubuntu => 20.10
-		```
-		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
-		sudo apt install lib32z1
-		```
-	* Debian =< 10
-		```
-		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 zlib1g:i386
-		sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
-		```
-	* Debian => 11
-		```
-		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 zlib1g:i386
-		sudo apt-get install zlib1g libzadc4 lib32z1 lib64z1
-		```
-	* CentOS
-		```
-		yum install epel-release
-		yum install curl wget tar bzip2 gzip unzip python3 binutils bc jq tmux glibc.i686 libstdc++ libstdc++.i686 zlib.i686
-		```
+* **Step 5 (Linux Only) Dependencies** 
+	* See [here](/README.md#dependencies)
 
 # Optional Files
 * Extension
