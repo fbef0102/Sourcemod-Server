@@ -1,57 +1,7 @@
 # If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
 
-# Linux Server Files/Windows Server Files
-> Game: Left 4 Deade 2
-* Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11)**
-		* **v1.11-git6968** by AlliedModders LLC	
-	
-	* **[MetaMod](https://www.sourcemm.net/downloads.php?branch=1.11)**
-		* **v1.11-git1155** by AlliedModders LLC
-	
-	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
-		* **v1.2.2-git141** by BAILOPAN - Modify Map
-	
-	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
-		* **v2.0.1** by ivailosp、Accelerator74
-	
-	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
-		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
-	
-	* **[pounce_damage_uncap](https://github.com/accelerator74/Pounce-Damage-Uncap/actions)** - Unlock Hunter Pounce Damage
-		* **v1.1.0.0** by Spirit_12 & Accelerator74
-
-* Extenstion
-	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - memory patches & allocate memory
-		* **v0.7.1.4** by nosoop
-	
-	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
-		* **v1.3.1** by ErikMinekus
-	
-	* **[SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)** - Exposes SteamWorks functions to Developers
-		* **v1.2.4** by KyleS & hexa-core-eu
-	
-	* **[Actions](https://forums.alliedmods.net/showthread.php?t=336374)** - Extension provides a natives to hook action event handlers and create custom actions
-		* **v3.8.8** by BHaType
-
-	* **[Resolve Collision](https://forums.alliedmods.net/showthread.php?t=344019)** - Fixes longstanding issues with low nb_update_frequency
-		* **1.10.1** by BHaType
-
-	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
-		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
-
-	* **[builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)** - Let plugins use the L4D/L4D2/TF2 built-in vote screens.
-		* **v0.7.0** by Powerlord, A1mDev
-
-* Extra File
-	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
-		* **2024-12-06** by MAXMIND.com
-	
-	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
-		* **2024-12-06** by MAXMIND.com
-
 # Server Install
-* **Step 1:** [Clean L4D2 Dedicated Server](#how-to-download-l4d2-dedicated-server-files).
+* **Step 1:** [Download L4D2 Dedicated Server](#how-to-download-l4d2-dedicated-server-files).
 
 * **Step 2:** 
 	* (Windows) Choose "Windows Server files", and place the files provided in the correct folder.
@@ -96,6 +46,66 @@
 		./srcds_run -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 -maxplayers 31
 		```
 
+# Linux Server Files/Windows Server Files
+> Game: Left 4 Deade 2
+
+* Main
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11)**
+		* **v1.11-git6968** by AlliedModders LLC	
+	
+	* **[MetaMod](https://www.sourcemm.net/downloads.php?branch=1.11)**
+		* **v1.11-git1155** by AlliedModders LLC
+	
+	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
+		* **v1.2.2-git141** by BAILOPAN - Modify Map
+	
+	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
+		* **v2.0.1** by ivailosp、Accelerator74
+	
+	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
+		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
+	
+	* **[pounce_damage_uncap](https://github.com/accelerator74/Pounce-Damage-Uncap/actions)** - Unlock Hunter Pounce Damage
+		* **v1.1.0.0** by Spirit_12 & Accelerator74
+
+* Extenstion
+	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - memory patches & allocate memory
+		* **v0.7.1.4** by nosoop
+	
+	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
+		* **v1.3.1** by ErikMinekus
+	
+	* **[SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)** - Exposes SteamWorks functions to Developers
+		* **v1.2.4** by KyleS & hexa-core-eu
+	
+	* **[Actions](https://forums.alliedmods.net/showthread.php?t=336374)** - Extension provides a natives to hook action event handlers and create custom actions
+		* **v3.8.8** by BHaType
+
+	* **[Resolve Collision](https://forums.alliedmods.net/showthread.php?t=344019)** - Fixes longstanding issues with low nb_update_frequency
+		* **1.10.1** by BHaType
+
+	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
+		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
+
+	* **[builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)** - Let plugins use the L4D/L4D2/TF2 built-in vote screens.
+		* **v0.7.0** by Powerlord, A1mDev
+
+	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
+		* **v0.3.1** by fdxx
+
+# Optional Files
+* Extension
+	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
+		* **v2.5.0-cd575aa** by asherkin
+		* 🟥 After 2024/5/2 update, broken in Linux system
+
+* Extra File
+	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
+		* **2024-12-06** by MAXMIND
+
+	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
+		* **2024-12-06** by MAXMIND
+
 # How to download L4D2 Dedicated Server files:
 * **Step 1:** [Download steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD).
 
@@ -113,15 +123,6 @@
 
 * **Step 5 (Linux Only) Dependencies** 
 	* See [here](/README.md#dependencies)
-		
-# Optional Files
-* Extension
-	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
-		* **v0.3** by fdxx
-		
-	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
-		* **v2.5.0-cd575aa** by asherkin
-		* 🟥 In Linux system, does not work if install this extension with **builtinvotes** and **CollisionHooks**
 
 # Others
 * <b>[L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)</b>: L4D1/2 enhancement, bug/glitch fixes, freaky-fun, and useful plugins.

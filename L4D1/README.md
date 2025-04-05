@@ -1,51 +1,7 @@
 # If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
 
-# Linux Server Files/Windows Server Files
-> Game: Left 4 Deade 1
-* Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11)**
-		* **v1.11-git6968** by AlliedModders LLC
-
-	* **[MetaMod](https://www.sourcemm.net/downloads.php?branch=1.11)**
-		* **v1.11-git1155** by AlliedModders LLC
-
-	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
-		* **v1.2.2-git141** by BAILOPAN
-
-	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
-		* **v2.0.1** by ivailosp、Accelerator74
-
-	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
-		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
-
-* Extenstion
-	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
-		* **v1.3.1** by ErikMinekus 
-
-	* **[socket](https://github.com/JoinedSenses/sm-ext-socket/releases)** - Provides networking functionality for SourceMod scripts
-		* **v3.0.2** by sfPlayer & JoinedSenses 
-
-	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - Memory patches & allocate memory
-		* **v0.7.1.1** by nosoop
-
-	* **[Actions](https://forums.alliedmods.net/showthread.php?t=336374)** - Extension provides a natives to hook action event handlers and create custom actions
-		* **v3.8.8** by BHaType
-
-	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
-		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
-
-	* **[builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)** - Let plugins use the L4D/L4D2/TF2 built-in vote screens.
-		* **v0.7.0** by Powerlord, A1mDev
-
-* Extra File
-	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
-		* **2024-12-06** by MAXMIND
-
-	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
-		* **2024-12-06** by MAXMIND
-
 # Server Install
-* **Step 1:** [Clean L4D1 Dedicated Server](#how-to-download-l4d1-dedicated-server-files).
+* **Step 1:** [Download L4D1 Dedicated Server](#how-to-download-l4d1-dedicated-server-files).
 
 * **Step 2:** 
 	* (Windows) Choose "Windows Server files", and place the files provided in the correct folder.
@@ -83,6 +39,59 @@
 		./srcds_run -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
 		```
 
+# Linux Server Files/Windows Server Files
+> Game: Left 4 Deade 1
+* Main
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11)**
+		* **v1.11-git6968** by AlliedModders LLC
+
+	* **[MetaMod](https://www.sourcemm.net/downloads.php?branch=1.11)**
+		* **v1.11-git1155** by AlliedModders LLC
+
+	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
+		* **v1.2.2-git141** by BAILOPAN
+
+	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
+		* **v2.0.1** by ivailosp、Accelerator74
+
+	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
+		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
+
+* Extenstion
+	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
+		* **v1.3.1** by ErikMinekus 
+
+	* **[socket](https://github.com/JoinedSenses/sm-ext-socket/releases)** - Provides networking functionality for SourceMod scripts
+		* **v3.0.2** by sfPlayer & JoinedSenses 
+
+	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - Memory patches & allocate memory
+		* **v0.7.1.1** by nosoop
+
+	* **[Actions](https://forums.alliedmods.net/showthread.php?t=336374)** - Extension provides a natives to hook action event handlers and create custom actions
+		* **v3.8.8** by BHaType
+
+	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
+		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
+
+	* **[builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)** - Let plugins use the L4D/L4D2/TF2 built-in vote screens.
+		* **v0.7.0** by Powerlord, A1mDev
+
+	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
+		* **v0.3.1** by fdxx
+
+# Optional Files
+* Extension
+	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
+		* **v2.5.0-cd575aa** by asherkin
+		* 🟥 After 2024/5/2 update, broken in Linux system
+
+* Extra File
+	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
+		* **2024-12-06** by MAXMIND
+
+	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
+		* **2024-12-06** by MAXMIND
+
 # How to download L4D1 Dedicated Server files:
 **Warning: Don't try to download "Left 4 Dead Dedicated Server" from steam library, it's broken!! Use steamcmd instead.**
 
@@ -102,15 +111,6 @@
 
 * **Step 5 (Linux Only) Dependencies** 
 	* See [here](/README.md#dependencies)
-
-# Optional Files
-* Extension
-	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
-		* **v0.3** by fdxx
-
-	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
-		* **v2.5.0-cd575aa** by asherkin
-		* 🟥 After 2024/5/2 update, broken in Linux system
 
 # Others
 * <b>[Rotoblin-AZMod](https://github.com/fbef0102/Rotoblin-AZMod)</b>: A Competitive L4D1 Versus Configuration
