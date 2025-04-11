@@ -36,3 +36,8 @@ Setup your own sourcemod servers.
     "STEAM_X:X:XXXXXXXX" "99:z"
     ```
 3. Save->Restart Server
+
+# Others
+* <b>[Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)</b>: Plugins for most source engine games.
+* <b>[L4D1/2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)</b>: Plugins for L4D1/2.
+* <b>[Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin)</b>: Private Plugin List.
