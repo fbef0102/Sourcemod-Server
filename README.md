@@ -2,7 +2,7 @@
 Setup your own sourcemod servers.
 
 - - - -	
-# If you appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me.
+# Appreciate my work, you can [PayPal Donate](https://paypal.me/Harry0215?locale.x=zh_TW) me
 
 - - - -
 ### Server Install ###
