@@ -1,0 +1,1 @@
+start srcds.exe -console -game "nmrih" +log on +exec server +sv_lan 0 +map "nmo_anxiety" -maxplayers 32

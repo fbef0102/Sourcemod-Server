@@ -1,0 +1,1 @@
+start srcds.exe -console -game "cstrike" +log on +exec server +sv_lan 0 +map "de_dust2" -maxplayers 32

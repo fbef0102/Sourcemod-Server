@@ -14,6 +14,12 @@
 		// https://developer.valvesoftware.com/wiki/Sv_region
 		// 4=Asia
 		sv_region 4 
+
+		// Max players
+		sv_maxplayers 8
+
+		// Maxplayers display
+		sv_visiblemaxplayers 8
 		```
 
 	2. ```cfg/server_rates.cfg```
@@ -42,10 +48,10 @@
 # Linux Server Files/Windows Server Files
 > Game: Left 4 Deade 1
 * Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11)**
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
 		* **v1.11-git6968** by AlliedModders LLC
 
-	* **[MetaMod](https://www.sourcemm.net/downloads.php?branch=1.11)**
+	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
 		* **v1.11-git1155** by AlliedModders LLC
 
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
@@ -79,8 +85,6 @@
 	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
 		* **v0.3.1** by fdxx
 
-# Optional Files
-* Extension
 	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
 		* **v2.5.0-cd575aa** by asherkin
 		* 🟥 After 2024/5/2 update, broken in Linux system
@@ -91,6 +95,10 @@
 
 	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
 		* **2024-12-06** by MAXMIND
+
+# Recommended Files
+* Plugins
+	* **[l4d_unreservelobby](https://github.com/fbef0102/L4D1_2-Plugins/tree/master/l4d_unreservelobby)** - Removes lobby reservation when server is full, allow 9+ players to join server
 
 # How to download L4D1 Dedicated Server files:
 **Warning: Don't try to download "Left 4 Dead Dedicated Server" from steam library, it's broken!! Use steamcmd instead.**
@@ -103,7 +111,7 @@
 	* ```force_install_dir ./l4d1/```
 	* ```login xxxx```
 		* xxxx is your steam account number 
-		* Enter your steam account password if needed
+		* Enter your steam account password if needed (first time login)
 	* ```app_update 222840 validate```
 
 * **Step 4:** Finish downloading and close steamcmd.
@@ -113,9 +121,10 @@
 	* See [here](/README.md#dependencies)
 
 # Others
+* <b>[How to install 8+ slots coop/versus server](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Game/L4D2/8+_Survivors_In_Coop)</b>
 * <b>[Rotoblin-AZMod](https://github.com/fbef0102/Rotoblin-AZMod)</b>: A Competitive L4D1 Versus Configuration
 * <b>[L4D1_2-Plugins](https://github.com/fbef0102/L4D1_2-Plugins)</b>: L4D1/2 enhancement, bug/glitch fixes, freaky-fun, and useful plugins.
 * <b>[Sourcemod-Plugins](https://github.com/fbef0102/Sourcemod-Plugins)</b>: Plugins for most source engine games. Make server more fun, and more useful plugins for adm.
+* <b>[Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin)</b>: Private Plugin List.
 * <b>[Sourcemod Anti-Cheat-SMAC](https://github.com/fbef0102/SMAC)</b>: Server-side plugin comprised of different modules to help protect your gameserver against cheaters.
 * <b>[Little-Anti-Cheat](https://github.com/fbef0102/Little-Anti-Cheat)</b>: Open source anti-cheat for source games, and runs on SourceMod.
-* <b>[Game-Private_Plugin](https://github.com/fbef0102/Game-Private_Plugin)</b>: Private Plugin List.

@@ -6,8 +6,10 @@ Setup your own sourcemod servers.
 
 - - - -
 ### Server Install ###
-* [L4D1](/L4D1): Setup l4d1 sourcemod dedicated servers.
-* [L4D2](/L4D2): Setup l4d2 sourcemod dedicated servers.
+* [L4D1](/L4D1): Setup ```Left 4 Dead 1``` sourcemod dedicated servers.
+* [L4D2](/L4D2): Setup ```Left 4 Dead 2``` sourcemod dedicated servers.
+* [CSS](/CSS): Setup ```Counter-Strike: Source``` sourcemod dedicated servers.
+* [NMRIH](/NMRIH): Setup ```No More Room in Hell``` sourcemod dedicated servers.
 
 ### Dependencies ###
 * **(Linux Only)**: [Source](https://linuxgsm.com/servers/l4dserver/)
