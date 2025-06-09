@@ -96,9 +96,9 @@
 	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
 		* **v0.3.1** by fdxx
 
-	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
-		* **v2.5.0-cd575aa** by asherkin
-		* 🟥 After 2024/5/2 update, broken in Linux system
+	* **[Accelerator](https://github.com/asherkin/accelerator/actions)** - Crash Reporting That Doesn't Suck
+		* **2.6.0-manual**
+		* 🟥 After SM 1.12, broken in Linux system
 
 * Extra File
 	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
