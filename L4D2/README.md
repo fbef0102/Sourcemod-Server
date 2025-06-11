@@ -72,8 +72,8 @@
 		* **v1.1.0.0** by Spirit_12 & Accelerator74
 
 * Extenstion
-	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - memory patches & allocate memory
-		* **v0.7.1.4** by nosoop
+	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - Memory patches & allocate memory
+		* **v0.8.1.1** by nosoop
 	
 	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
 		* **v1.3.1** by ErikMinekus
@@ -81,8 +81,8 @@
 	* **[SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)** - Exposes SteamWorks functions to Developers
 		* **v1.2.4** by KyleS & hexa-core-eu
 	
-	* **[Actions](https://forums.alliedmods.net/showthread.php?t=336374)** - Extension provides a natives to hook action event handlers and create custom actions
-		* **v3.8.8** by BHaType
+	* **[Actions](https://github.com/Vinillia/actions.ext/releases)** - Extension provides a natives to hook action event handlers and create custom actions
+		* **v3.9.2** by BHaType
 
 	* **[Resolve Collision](https://forums.alliedmods.net/showthread.php?t=344019)** - Fixes longstanding issues with low nb_update_frequency
 		* **1.10.1** by BHaType
