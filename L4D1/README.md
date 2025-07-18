@@ -14,8 +14,9 @@
 		// https://developer.valvesoftware.com/wiki/Sv_region
 		// 4=Asia
 		sv_region 4 
-
-		// Max players
+		
+		// How many real players can join server (Not including AI Bots)
+		// Free to modify value (1~31)
 		sv_maxplayers 8
 
 		// Maxplayers display

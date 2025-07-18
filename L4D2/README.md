@@ -15,7 +15,12 @@
 		// 4=Asia
 		sv_region 4 
 
-		// Max players
+		// Max. clients/players, how many real players + bots allowed in server
+		// Do not modify value (max: 31)
+		sv_setmax 31
+
+		// How many real players can join server (Not including AI Bots)
+		// Free to modify value (1~31)
 		sv_maxplayers 8
 
 		// Maxplayers display
@@ -43,7 +48,7 @@
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
-	* (Windows) Double click scrds.bat
+	* (Windows) Double click ```scrds.bat```
 		```
 		start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
 		```
