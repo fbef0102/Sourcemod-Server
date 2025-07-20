@@ -66,7 +66,7 @@
 
 * Extenstion
 	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
-		* **v1.3.1** by ErikMinekus 
+		* **v1.3.2** by ErikMinekus 
 
 	* **[socket](https://github.com/JoinedSenses/sm-ext-socket/releases)** - Provides networking functionality for SourceMod scripts
 		* **v3.0.2** by sfPlayer & JoinedSenses 

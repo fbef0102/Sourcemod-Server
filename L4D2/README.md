@@ -81,7 +81,7 @@
 		* **v0.8.1.1** by nosoop
 	
 	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
-		* **v1.3.1** by ErikMinekus
+		* **v1.3.2** by ErikMinekus
 	
 	* **[SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)** - Exposes SteamWorks functions to Developers
 		* **v1.2.4** by KyleS & hexa-core-eu
