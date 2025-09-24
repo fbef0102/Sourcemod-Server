@@ -48,7 +48,7 @@
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
-	* (Windows) Double click ```scrds.bat```
+	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
 		start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
 		```

@@ -13,7 +13,7 @@ Setup your own sourcemod servers.
 
 ### Dependencies ###
 * **(Linux Only)**: [Source](https://linuxgsm.com/servers/l4dserver/)
-	* Ubuntu ≤ 22.04 : **Unsupported**
+	* Ubuntu < 22.04 : **Unsupported**
 	* Ubuntu ≥ 22.04
 		```
 		sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 lib32z1 gcc-multilib steamcmd

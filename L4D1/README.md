@@ -37,7 +37,7 @@
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
-	* (Windows) Double click scrds.bat
+	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
 		start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
 		```
@@ -51,6 +51,7 @@
 * Main
 	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
 		* **v1.11-git6968** by AlliedModders LLC
+		* 🟥 After SM 1.12, due to safetyhook issue, it is easy to make server crash when using detour in l4d1 linux
 
 	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
 		* **v1.11-git1155** by AlliedModders LLC
@@ -59,7 +60,7 @@
 		* **v1.2.2-git141** by BAILOPAN
 
 	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
-		* **v2.0.1** by ivailosp、Accelerator74
+		* **v2.1.0** by ivailosp、Accelerator74
 
 	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
 		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
@@ -88,7 +89,7 @@
 
 	* **[Accelerator](https://github.com/asherkin/accelerator/actions)** - Crash Reporting That Doesn't Suck
 		* **2.6.0-manual**
-		* 🟥 After SM 1.12, broken in Linux system
+		* 🟥 After SM 1.12, broken in l4d1 linux system
 
 * Extra File
 	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb

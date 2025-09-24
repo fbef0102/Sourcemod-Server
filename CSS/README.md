@@ -17,7 +17,7 @@
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
-	* (Windows) Double click scrds.bat
+	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where scrds.exe located at
 		```
 		start srcds.exe -console -game "cstrike" +log on +exec server +sv_lan 0 +map "de_dust2" -maxplayers 32
 		```
