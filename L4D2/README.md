@@ -43,7 +43,9 @@
 	3. ```cfg/l4d2_resolve_collision.cfg```
 		```php
 		// Multiplier of commons collision force
-		// 30tick = 0.65, 60tick = 0.15, 100tick = 0.05
+		// If server tick is 30 => 0.65
+		// If server tick is 60 => 0.15
+		// If server tick is 100 => 0.05
 		z_resolve_zombie_collision_multiplier "0.05"
 		```
 
