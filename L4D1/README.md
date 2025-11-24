@@ -60,10 +60,10 @@
 		* **v1.2.2-git141** by BAILOPAN
 
 	* **[l4dtoolz](https://github.com/accelerator74/l4dtoolz/releases)** - Unlock Server Slot Limit
-		* **v2.1.0** by ivailosp、Accelerator74
+		* **v2.2.0** by ivailosp、Accelerator74
 
 	* **[Tickrate Enabler](https://github.com/accelerator74/Tickrate-Enabler/releases)** - Unlock Tickrate
-		* **v1.5** by ProdigySim、Spirit_12、Accelerator74、Forgetest
+		* **v1.5.2** by ProdigySim、Spirit_12、Accelerator74
 
 * Extenstion
 	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
@@ -89,7 +89,7 @@
 
 	* **[Accelerator](https://github.com/asherkin/accelerator/actions)** - Crash Reporting That Doesn't Suck
 		* **2.6.0-manual**
-		* 🟥 After SM 1.12, broken in l4d1 linux system
+		* 🟥 Broken in l4d1 linux system
 
 * Extra File
 	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb

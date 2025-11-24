@@ -73,7 +73,7 @@
 		* **v1.2.2-git141** by BAILOPAN - Modify Map
 	
 	* **[l4dtoolz](https://github.com/lakwsh/l4dtoolz)** - Unlock Server Slot Limit + Unlock Server Tickrate
-		* **v2.4.1** by ivailosp、Accelerator74、ivailosp
+		* **v2.4.2** by ivailosp、Accelerator74、ivailosp
 	
 	* **[pounce_damage_uncap](https://github.com/accelerator74/Pounce-Damage-Uncap/actions)** - Unlock Hunter Pounce Damage
 		* **v1.1.0.0** by Spirit_12 & Accelerator74
