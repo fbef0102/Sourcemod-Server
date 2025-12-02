@@ -10,17 +10,17 @@
 * **Step 3:** Adjust cvar to match your server  
 	1. ```cfg/server.cfg```
 		```php
-		// Set your server region to steam master
-		// https://developer.valvesoftware.com/wiki/Sv_region
-		// 4=Asia
-		sv_region 4 
-		
 		// How many real players can join server (Not including AI Bots)
 		// Free to modify value (1~31)
 		sv_maxplayers 8
 
 		// Maxplayers display
 		sv_visiblemaxplayers 8
+
+		// Set your server region to steam master
+		// https://developer.valvesoftware.com/wiki/Sv_region
+		// 4=Asia
+		sv_region 4 
 		```
 
 	2. ```cfg/server_rates.cfg```
@@ -39,12 +39,18 @@
 * **Step 4:** Change the Launch Parameters and start server
 	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
-		start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
+		start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +mp_gamemode "coop" +exec server +sv_lan 0 -maxplayers 31
 		```
 	* (Linux) Use screen, a terminal multiplexer
 		```
-		./srcds_run -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +exec server +sv_lan 0 -maxplayers 31
+		./srcds_run -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +mp_gamemode "coop" +exec server +sv_lan 0 -maxplayers 31
 		```
+	* Explain:
+		* ```-tickrate 100```: Set 100 tickrate
+		* ```-maxplayers 31```: Set 31 Max. clients/players, how many real players + fake bots allowed in server
+		* ```+mp_gamemode "coop"```: Gamemode is coop (Available gamemode: coop, versus, survival)
+		* ```+exec server```: Execute ```cfg/server.cfg``` on server starup
+		* ```+map l4d_vs_airport01_greenhouse```: Default map on server starup
 
 # Linux Server Files/Windows Server Files
 > Game: Left 4 Deade 1

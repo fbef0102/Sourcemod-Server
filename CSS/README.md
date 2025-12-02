@@ -25,7 +25,11 @@
 		```
 		./srcds_run -console -game "cstrike" +log on +exec server +sv_lan 0 +map "de_dust2" -maxplayers 32
 		```
-
+	* Explain:
+		* ```-maxplayers 32```: Set 31 Max. clients/players, how many real players + fake bots allowed in server
+		* ```+exec server```: Execute ```cfg/server.cfg``` on server starup
+		* ```+map "de_dust2"```: Default map on server starup
+		
 # Linux Server Files/Windows Server Files
 > Game: Counter-Strike: Source
 * Main

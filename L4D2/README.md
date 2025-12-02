@@ -10,21 +10,17 @@
 * **Step 3:** Adjust cvar to match your server  
 	1. ```cfg/server.cfg```
 		```php
-		// Set your server region to steam master
-		// https://developer.valvesoftware.com/wiki/Sv_region
-		// 4=Asia
-		sv_region 4 
-
-		// Max. clients/players, how many real players + bots allowed in server
-		// Do not modify value (max: 31)
-		sv_setmax 31
-
 		// How many real players can join server (Not including AI Bots)
 		// Free to modify value (1~31)
 		sv_maxplayers 8
 
 		// Maxplayers display
 		sv_visiblemaxplayers 8
+
+		// Set your server region to steam master
+		// https://developer.valvesoftware.com/wiki/Sv_region
+		// 4=Asia
+		sv_region 4 
 		```
 
 	2. ```cfg/server_rates.cfg```
@@ -52,12 +48,18 @@
 * **Step 4:** Change the Launch Parameters and start server
 	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
-		start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
+		start srcds.exe -console -game left4dead2 -port 27016 +log on +map c2m1_highway +mp_gamemode "coop" +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
 		```
 	* (Linux) Use screen, a terminal multiplexer
 		```
-		./srcds_run -console -game left4dead2 -port 27016 +log on +map c2m1_highway +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
+		./srcds_run -console -game left4dead2 -port 27016 +log on +map c2m1_highway +mp_gamemode "coop" +exec server +sv_lan 0 -tickrate 100 +sv_setmax 31
 		```
+	* Explain:
+		* ```-tickrate 100```: Set 100 tickrate
+		* ```+sv_setmax 31```: Set 31 Max. clients/players, how many real players + fake bots allowed in server
+		* ```+mp_gamemode "coop"```: Gamemode is coop (Available gamemode: coop, versus, realism, scavenage, survival, Mutation1, Mutation2, ...)
+		* ```+exec server```: Execute ```cfg/server.cfg``` on server starup
+		* ```+map c2m1_highway```: Default map on server starup
 
 # Linux Server Files/Windows Server Files
 > Game: Left 4 Deade 2
@@ -94,10 +96,8 @@
 	* **[Actions](https://github.com/Vinillia/actions.ext/releases)** - Extension provides a natives to hook action event handlers and create custom actions
 		* **v3.9.2** by BHaType
 
-	* **Resolve Collision** - Fixes longstanding issues with low nb_update_frequency
+	* **[Resolve Collision](https://forums.alliedmods.net/showthread.php?t=344019)** - Fixes longstanding issues with low nb_update_frequency
 		* **1.10.1** by BHaType
-		* [Linux version](https://forums.alliedmods.net/showthread.php?t=344019)
-		* [Windows version](https://forums.alliedmods.net/showpost.php?p=2837837&postcount=84)
 
 	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
 		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
