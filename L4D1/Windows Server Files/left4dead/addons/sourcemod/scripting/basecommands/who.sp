@@ -212,7 +212,6 @@ public Action Command_Who(int client, int args)
 			else if (flags & ADMFLAG_ROOT)
 			{
 				strcopy(flagstring, sizeof(flagstring), "root");
-				FlagBitsToString(flags, ASCIIString, sizeof(ASCIIString));
 			}
 			else
 			{
