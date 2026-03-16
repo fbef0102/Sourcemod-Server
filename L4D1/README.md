@@ -56,7 +56,7 @@
 > Game: Left 4 Deade 1
 * Main
 	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.12-dev)**
-		* **v1.12-git7221** by AlliedModders LLC
+		* **v1.12-git7223** by AlliedModders LLC
 
 	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.12-dev)**
 		* **v1.12-git1219** by AlliedModders LLC
