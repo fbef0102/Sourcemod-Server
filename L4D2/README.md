@@ -66,16 +66,16 @@
 
 * Main
 	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
-		* **v1.11-git6968** by AlliedModders LLC	
+		* **v1.12-git7223** by AlliedModders LLC	
 	
 	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
-		* **v1.11-git1155** by AlliedModders LLC
+		* **v1.12-git1219** by AlliedModders LLC
 	
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
 		* **v1.2.2-git141** by BAILOPAN - Modify Map
 	
 	* **[l4dtoolz](https://github.com/lakwsh/l4dtoolz)** - Unlock Server Slot Limit + Unlock Server Tickrate
-		* **v2.4.2** by ivailosp、Accelerator74、ivailosp
+		* **v2.4.3** by ivailosp、Accelerator74、ivailosp
 	
 	* **[pounce_damage_uncap](https://github.com/accelerator74/Pounce-Damage-Uncap/actions)** - Unlock Hunter Pounce Damage
 		* **v1.1.0.0** by Spirit_12 & Accelerator74
@@ -134,9 +134,10 @@
 
 * **Step 3:** After it says "Loading Steam API...OK.", type
 	* ```force_install_dir ./l4d2/```
-	* ```login xxxx```
-		* xxxx is your steam account name (not display name)
-		* Enter your steam account password if needed (first time login)
+	* ```login xxxx yyyy```
+		* xxxx is your steam account name (not display name, not steam id)
+		* yyyy is your steam account password
+		* Enter your steam mobile guard verification code if needed (first time login)
 	* ```app_update 222860 validate```
 
 * **Step 4:** Finish downloading and close steamcmd.

@@ -116,9 +116,10 @@
 
 * **Step 3:** after it says "Loading Steam API...OK.", type
 	* ```force_install_dir ./l4d1/```
-	* ```login xxxx```
-		* xxxx is your steam account name (not display name)
-		* Enter your steam account password if needed (first time login)
+	* ```login xxxx yyyy```
+		* xxxx is your steam account name (not display name, not steam id)
+		* yyyy is your steam account password
+		* Enter your steam mobile guard verification code if needed (first time login)
 	* ```app_update 222840 validate```
 
 * **Step 4:** Finish downloading and close steamcmd.
