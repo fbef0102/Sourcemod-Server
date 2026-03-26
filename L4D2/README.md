@@ -108,10 +108,6 @@
 	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
 		* **v0.3.1** by fdxx
 
-	* **[Accelerator](https://github.com/asherkin/accelerator/actions)** - Crash Reporting That Doesn't Suck
-		* **2.6.0-manual**
-		* 🟥 After SM 1.12, broken in Linux system
-
 * Extra File
 	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
 		* **2024-12-06** by MAXMIND
@@ -120,6 +116,10 @@
 		* **2024-12-06** by MAXMIND
 
 # Recommended Files
+* Extenstion
+	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
+		* [Install tutorial](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#accelerator-crash-report)
+
 * Plugins
 	* **[l4d2_vomit_fix](https://github.com/lakwsh/l4d2_vomit_fix)** - Patches Boomer Vomit behavior to fix an issue where vomit range scaled inversely with tickrate.
 

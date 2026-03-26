@@ -46,9 +46,10 @@
 	* **[SteamWorks](https://github.com/hexa-core-eu/SteamWorks/releases)** - Exposes SteamWorks functions to Developers
 		* **v1.2.4** by KyleS & hexa-core-eu
 
+# Recommended Files
+* Extenstion
 	* **[Accelerator](https://forums.alliedmods.net/showthread.php?t=277703)** - Crash Reporting That Doesn't Suck
-		* **v2.5.0-cd575aa** by asherkin
-		* 🟥 After 2024/5/2 update, broken in Linux system
+		* [Install tutorial](https://github.com/fbef0102/Game-Private_Plugin/tree/main/Tutorial_%E6%95%99%E5%AD%B8%E5%8D%80/English/Server/Install_Other_File#accelerator-crash-report)
 
 # How to download NMRIH Dedicated Server files:
 * **Step 1:** [Download SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD#Downloading_SteamCMD).
