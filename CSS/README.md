@@ -33,11 +33,11 @@
 # Linux Server Files/Windows Server Files
 > Game: Counter-Strike: Source
 * Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
-		* **v1.11-git6970** by AlliedModders LLC
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.12-dev)**
+		* **v1.12-git7223** by AlliedModders LLC
 
-	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
-		* **v1.11-git1156** by AlliedModders LLC
+	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.12-dev)**
+		* **v1.12-git1219** by AlliedModders LLC
 
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
 		* **v1.2.2-git141** by BAILOPAN
