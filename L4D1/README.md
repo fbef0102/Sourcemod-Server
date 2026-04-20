@@ -87,7 +87,7 @@
 		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
 
 	* **[builtinvotes](https://github.com/L4D-Community/builtinvotes/actions)** - Let plugins use the L4D/L4D2/TF2 built-in vote screens.
-		* **v0.7.0** by Powerlord, A1mDev
+		* **v0.7.1** by Powerlord, A1mDev
 
 	* **[cutlrbtreefix](https://github.com/fdxx/cutlrbtreefix/releases)** - Fixed server crash "CUtlRBTree overflow"
 		* **v0.3.1** by fdxx
