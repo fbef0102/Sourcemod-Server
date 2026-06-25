@@ -65,24 +65,24 @@
 > Game: Left 4 Deade 2
 
 * Main
-	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.11-dev)**
+	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.12-dev)**
 		* **v1.12-git7223** by AlliedModders LLC	
 	
-	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.11-dev)**
+	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.12-dev)**
 		* **v1.12-git1219** by AlliedModders LLC
 	
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
 		* **v1.2.2-git141** by BAILOPAN - Modify Map
 	
 	* **[l4dtoolz](https://github.com/lakwsh/l4dtoolz)** - Unlock Server Slot Limit + Unlock Server Tickrate
-		* **v2.4.3** by ivailosp、Accelerator74、ivailosp
+		* **v2.5.1** by ivailosp、Accelerator74、ivailosp
 	
 	* **[pounce_damage_uncap](https://github.com/accelerator74/Pounce-Damage-Uncap/actions)** - Unlock Hunter Pounce Damage
 		* **v1.1.0.0** by Spirit_12 & Accelerator74
 
 * Extenstion
 	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - Memory patches & allocate memory
-		* **v0.8.1.1** by nosoop
+		* **v0.8.2.1** by nosoop
 	
 	* **[REST in Pawn](https://github.com/ErikMinekus/sm-ripext/releases)** - Provides HTTP and JSON natives for plugins
 		* **v1.3.2** by ErikMinekus
@@ -110,10 +110,10 @@
 
 * Extra File
 	* **[GeoLite2-City](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-City.mmdb
-		* **2024-12-06** by MAXMIND
+		* **2026-06-23** by MAXMIND
 
 	* **[GeoLite2-Country](https://www.maxmind.com/en/home)** - addons\sourcemod\configs\geoip\GeoLite2-Country.mmdb
-		* **2024-12-06** by MAXMIND
+		* **2026-06-23** by MAXMIND
 
 # Recommended Files
 * Extenstion

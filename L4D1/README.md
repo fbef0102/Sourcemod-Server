@@ -56,8 +56,8 @@
 > Game: Left 4 Deade 1
 * Main
 	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.12-dev)**
-		* **v1.12-git7223** by AlliedModders LLC
-
+		* **v1.12-git7223** by AlliedModders LLC	
+	
 	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.12-dev)**
 		* **v1.12-git1219** by AlliedModders LLC
 
@@ -78,7 +78,7 @@
 		* **v3.0.2** by sfPlayer & JoinedSenses 
 
 	* **[sourcescramble](https://github.com/nosoop/SMExt-SourceScramble/releases)** - Memory patches & allocate memory
-		* **v0.8.1.1** by nosoop
+		* **v0.8.2.1** by nosoop
 
 	* **[Actions](https://github.com/Vinillia/actions.ext/releases)** - Extension provides a natives to hook action event handlers and create custom actions
 		* **v3.9.2** by BHaType
