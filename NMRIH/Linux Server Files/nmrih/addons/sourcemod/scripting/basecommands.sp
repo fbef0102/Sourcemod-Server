@@ -1,3 +1,5 @@
+//哈利有修改過
+
 /**
  * vim: set ts=4 :
  * =============================================================================
@@ -60,6 +62,9 @@ StringMap g_ProtectedVars;
 #include "basecommands/map.sp"
 #include "basecommands/execcfg.sp"
 
+ConVar sv_cheats;
+int iCheats;
+
 public void OnPluginStart()
 {
 	LoadTranslations("common.phrases");
@@ -95,6 +100,15 @@ public void OnPluginStart()
 	ProtectVar("rcon_password");
 	ProtectVar("sm_show_activity");
 	ProtectVar("sm_immunity_mode");
+	
+	sv_cheats = FindConVar("sv_cheats");
+	iCheats = sv_cheats.IntValue;
+	sv_cheats.AddChangeHook(ConVarChanged_Cvars);
+}
+
+void ConVarChanged_Cvars(ConVar convar, const char[] oldValue, const char[] newValue)
+{
+	iCheats = sv_cheats.IntValue;
 }
 
 public void OnMapStart()
@@ -319,16 +333,19 @@ public Action Command_Cvar(int client, int args)
 		}
 	}
 
-	if ((hndl.Flags & FCVAR_PROTECTED) != FCVAR_PROTECTED)
+	if(iCheats == 1) //sv_cheats 1
 	{
-		ShowActivity2(client, "[SM] ", "%t", "Cvar changed", cvarname, value);
-	}
-	else
-	{
-		ReplyToCommand(client, "[SM] %t", "Cvar changed", cvarname, value);
-	}
+		if ((hndl.Flags & FCVAR_PROTECTED) != FCVAR_PROTECTED)
+		{
+			ShowActivity2(client, "[SM] ", "%t", "Cvar changed", cvarname, value);
+		}
+		else
+		{
+			ReplyToCommand(client, "[SM] %t", "Cvar changed", cvarname, value);
+		}
 
-	LogAction(client, -1, "\"%L\" changed cvar (cvar \"%s\") (value \"%s\")", client, cvarname, value);
+		LogAction(client, -1, "\"%L\" changed cvar (cvar \"%s\") (value \"%s\")", client, cvarname, value);
+	}
 
 	hndl.SetString(value, true);
 
@@ -365,16 +382,19 @@ public Action Command_ResetCvar(int client, int args)
 	char value[255];
 	hndl.GetString(value, sizeof(value));
 
-	if ((hndl.Flags & FCVAR_PROTECTED) != FCVAR_PROTECTED)
+	if(iCheats == 1) //sv_cheats 1
 	{
-		ShowActivity2(client, "[SM] ", "%t", "Cvar changed", cvarname, value);
-	}
-	else
-	{
-		ReplyToCommand(client, "[SM] %t", "Cvar changed", cvarname, value);
-	}
+		if ((hndl.Flags & FCVAR_PROTECTED) != FCVAR_PROTECTED)
+		{
+			ShowActivity2(client, "[SM] ", "%t", "Cvar changed", cvarname, value);
+		}
+		else
+		{
+			ReplyToCommand(client, "[SM] %t", "Cvar changed", cvarname, value);
+		}
 
-	LogAction(client, -1, "\"%L\" reset cvar (cvar \"%s\") (value \"%s\")", client, cvarname, value);
+		LogAction(client, -1, "\"%L\" reset cvar (cvar \"%s\") (value \"%s\")", client, cvarname, value);
+	}
 
 	return Plugin_Handled;
 }

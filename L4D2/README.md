@@ -66,10 +66,10 @@
 
 * Main
 	* **[SourceMod](https://www.sourcemod.net/downloads.php?branch=1.12-dev)**
-		* **v1.12-git7223** by AlliedModders LLC	
+		* **v1.12-git7239** by AlliedModders LLC	
 	
 	* **[MetaMod](https://www.metamodsource.net/downloads.php/?branch=1.12-dev)**
-		* **v1.12-git1219** by AlliedModders LLC
+		* **v1.12-git1224** by AlliedModders LLC
 	
 	* **[stripper](https://www.bailopan.net/stripper/snapshots/1.2/)** - Add, filter and modify map entities
 		* **v1.2.2-git141** by BAILOPAN - Modify Map
