@@ -134,7 +134,7 @@
 
 * **Step 3:** After it says "Loading Steam API...OK.", type
 	* ```force_install_dir ./l4d2/```
-	* ```login xxxx yyyy```
+	* ```login "xxxx" "yyyy"```
 		* xxxx is your steam account name (not display name, not steam id)
 		* yyyy is your steam account password
 		* Enter your steam mobile guard verification code if needed (first time login)
