@@ -94,7 +94,7 @@
 		* **v1.2.4** by KyleS & hexa-core-eu
 	
 	* **[Actions](https://github.com/Vinillia/actions.ext/releases)** - Extension provides a natives to hook action event handlers and create custom actions
-		* **v3.9.2** by BHaType
+		* **v4.0.1** by BHaType
 
 	* **[Resolve Collision](https://forums.alliedmods.net/showthread.php?t=344019)** - Fixes longstanding issues with low nb_update_frequency
 		* **1.10.1** by BHaType
