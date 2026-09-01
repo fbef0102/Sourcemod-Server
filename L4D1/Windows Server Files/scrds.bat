@@ -1,1 +1,1 @@
-start srcds.exe -console -game left4dead -tickrate 100 +log on +map l4d_vs_airport01_greenhouse +mp_gamemode "coop" +exec server +sv_lan 0 -maxplayers 31
+start srcds.exe -console -game left4dead -port 27016 +log on +map l4d_vs_airport01_greenhouse +mp_gamemode "coop" +exec server +sv_lan 0 -tickrate 100 -maxplayers 31
