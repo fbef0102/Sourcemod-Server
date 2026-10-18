@@ -12,7 +12,9 @@ Setup your own sourcemod servers.
 * [NMRIH](/NMRIH): Setup ```No More Room in Hell``` sourcemod dedicated servers.
 
 ### Dependencies ###
-* **(Linux Only)**: [Source](https://linuxgsm.com/servers/l4dserver/)
+* **Windows**: At least Windows Server 2022, Win10 or above
+
+* **Linux**: [Source](https://linuxgsm.com/servers/l4dserver/)
 	* Ubuntu < 22.04 : **Unsupported**
 	* Ubuntu ≥ 22.04
 		```
