@@ -81,7 +81,7 @@
 		* **v0.8.2.1** by nosoop
 
 	* **[Actions](https://github.com/Vinillia/actions.ext/releases)** - Extension provides a natives to hook action event handlers and create custom actions
-		* **v3.9.2** by BHaType
+		* **v4.0.1** by BHaType
 
 	* **[CollisionHooks](https://github.com/L4D-Community/Collisionhook)** - Provides a straightforward and easy way to hook and modify collision rules between entities.
 		* **v1.3** by [VoiDeD](https://github.com/voided/CollisionHook)、[Spirit_12](https://github.com/Satanic-Spirit/Collisionhook)、A1mDev
