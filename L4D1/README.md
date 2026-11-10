@@ -25,15 +25,15 @@
 
 	2. ```cfg/server_rates.cfg```
 		```php
-		// For 100 Tickrate, you'd want these settings:
-		sm_cvar sv_minrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_maxrate 				"100000" 	// tickrate * 1000
-		sm_cvar sv_minupdaterate 		"101"	 	// tickrate +1
-		sm_cvar sv_maxupdaterate 		"101"		// tickrate +1
-		sm_cvar sv_mincmdrate 			"101"		// tickrate +1
-		sm_cvar sv_maxcmdrate 			"101"		// tickrate +1
-		sm_cvar net_splitpacket_maxrate "50000" 	// (tickrate÷2) * 1000
-		sm_cvar fps_max					"0"
+		// For 100 Tickrate, set these settings:
+		sm_cvar sv_minrate              "100000" 	// tickrate * 1000
+		sm_cvar sv_maxrate              "100000" 	// tickrate * 1000
+		sm_cvar sv_minupdaterate        "100"	 	// tickrate
+		sm_cvar sv_maxupdaterate        "100"		// tickrate
+		sm_cvar sv_mincmdrate           "100"		// tickrate
+		sm_cvar sv_maxcmdrate           "100"		// tickrate
+		sm_cvar net_splitpacket_maxrate "100000" 	// tickrate * 1000
+		sm_cvar fps_max                 "0"
 		```
 
 * **Step 4:** Change the Launch Parameters and start server
