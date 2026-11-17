@@ -36,15 +36,6 @@
 		sm_cvar fps_max                 "0"
 		```
 
-	3. ```cfg/l4d2_resolve_collision.cfg```
-		```php
-		// Multiplier of commons collision force
-		// If server tick is 30 => 0.65
-		// If server tick is 60 => 0.15
-		// If server tick is 100 => 0.05
-		z_resolve_zombie_collision_multiplier "0.05"
-		```
-
 * **Step 4:** Change the Launch Parameters and start server
 	* (Windows) Double click ```scrds.bat``` file, this file shoud be in the same folder where ```scrds.exe``` located at
 		```
